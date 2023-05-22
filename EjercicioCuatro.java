@@ -3,10 +3,21 @@ public class EjercicioCuatro  {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //input_numeros
-        System.out.print("Ingrese el primer número: ");
-        int num1 = scanner.nextInt();
-        System.out.print("Ingrese el segundo número: ");
+    
+        System.out.print("Ingrese el primer numero : ");
+       int num1 = scanner.nextInt();
+        while (num1 <= 0) {
+            System.out.print("Ingrese un primer numero positivo: ");
+         num1 = scanner.nextInt();
+        }
+        System.out.print("Ingrese el segundo numero: ");
         int num2 = scanner.nextInt();
+        while (num2 <= 0) {
+            System.out.print("Ingrese un primer numero positivo: ");
+         num2 = scanner.nextInt();
+        }
+
+
         //declarativas
         int suma = sumar(num1, num2);
         int resta = restar(num1, num2);
