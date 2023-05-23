@@ -13,7 +13,7 @@ public class EjercicioCuatro  {
         System.out.print("Ingrese el segundo numero: ");
         int num2 = scanner.nextInt();
         while (num2 <= 0) {
-            System.out.print("Ingrese un primer numero positivo: ");
+            System.out.print("Ingrese un segundo numero positivo: ");
          num2 = scanner.nextInt();
         }
 
