@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Facto {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        System.out.print("Ingrese un numero: ");
         int num = sc.nextInt();
         int fact = factorial(num);
-        System.out.println("Factorial of " + num + " is: " + fact);
+        System.out.println("El factorial de " + num + " es: " + fact);
     }
 
     public static int factorial(int n) {
