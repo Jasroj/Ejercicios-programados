@@ -9,4 +9,4 @@ public class TablaMulti {
             System.out.println(num + " x " + i + " = " + (num * i));
         }
     }
-}
+}   
